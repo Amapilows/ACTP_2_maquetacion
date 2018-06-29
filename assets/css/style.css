@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	background-color: #121619;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.navbar img{
+	width: 100px;
+}
+
+.banner__background{
+	background: url(../img/post-image.jpg) no-repeat center center;
+	background-size: cover;
+	height: 400px;
+	@media (min-width: 700px)
+}
+
+.banner__h1{
+	font-family: 'Playfair Display', serif;
+	font-style: oblique;
+	color: white;
+	text-align: center;
+}
+.section2__text{
+	font-family: 'Roboto', sans-serif;
+	color: #323333;
+	font-size: 12px;
+	text-align: left;
+}
+
+.footer__pie{
+	background-color: #121619;
+	text-align: center;
+}
+
+.footer__pie img{
+	width: 120px;
+}
